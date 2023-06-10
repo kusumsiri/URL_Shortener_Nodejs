@@ -169,3 +169,6 @@ add_customer.zip
 
 # terraform plans
 *.tfplan
+
+#lambda compress files
+lambda*.zip
