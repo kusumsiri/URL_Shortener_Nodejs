@@ -11,7 +11,7 @@ exports.handler = async event =>{
         return Responses._400({message: "Empty body or missing URL"});
     }
 
-    //add DB write logic here
+    // write to DB
     await dynamo.put({
         TableName: 'shortURL',
         Item:{
